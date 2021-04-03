@@ -25,23 +25,28 @@ html{
 }
 
 .media-icons{
-	height: 3.5rem;
-	width: 15rem;
-	background: none;
-	outline: none;
-	border: 2rem solid;
-	color: white;
-	font-size: 2rem;
-	margin: 1rem 0;
+	font-size: 5rem;
+}
+
+.heading{
+	text-align: center;
+	font-size: 4rem;
+	color: #555;
+	padding: 1rem;
+	padding-top: 7rem;
+}
+
+.heading i{
+	 color: var(--green);
+	 font-size: 2rem;
 }
 
 header{
-	position: relative;
-	top: 0;
 	width: 100%;
 	padding: 1rem 5rem;
 	display: flex;
 	justify-content: space-between;
+	background: #fff;
 	align-items: center;
 	box-shadow: 0.1rem .3rem rgba(0,0,0,.3);
 	position: fixed;
@@ -51,26 +56,25 @@ header{
 }
 
 .logo{
-	position: relative;
 	color: var(--green);
 	font-size: 3rem;
-	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 800;
-	letter-spacing: 1px;
 }
 
-.navigation a{
+.navigation ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.navigation ul li{
+	margin: 0 1rem;
+}
+
+
+.navigation ul li a{
 	font-size: 2rem;
 	color: #666;
-	text-decoration: none;
-	font-weight: 500;
-	letter-spacing: 1px;
-	padding: 2px 15px;
-	border-radius: 20px;
-	transition: 0.3s;
-	transition-property: background;
-
 }
 .navigation a:not(:last-child){
 	margin-right: 30px;
@@ -93,7 +97,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center; 
-	background-image: url(tree.jpeg);
+	background-image: url(home.jpg);
 	background-size: cover;
 	background-position: center;
 
@@ -102,29 +106,105 @@ header{
 .content{
 	text-align: center;
 	padding: 1rem;
-	max-width: 650px;
-	margin: 60px 100px;
+	margin-top: 5rem;
+	margin-bottom: 20rem;
 	color:#000 ;
 	background: #fff;
+	max-height: 20rem;
 }
 
 .content .info h2{
 	color: var(--green);
-	font-size: 7rem;	
+	font-size: 4rem;
+	font-family: sans-serif;	
 } 
 
 .content .info p{
-	font-size: 1.9rem;
+	font-size: 2rem;
 	color: #333;
 	padding: 1rem 0;
-	width: 70rem;
+	width: 100rem;
+	text-align: left;
+
 }
+
+.about .row{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.about .row .image{
+	flex: 1 1 40rem;
+	padding: 2rem;
+}
+
+.about .row .image img{
+	width: 100%;
+
+}
+
+.about .row .content{
+	flex: 1 1 40rem;
+	padding: 2rem;
+}
+
+.about .row .content h3{
+	font-size: 3rem;
+	color: var(--green);	
+}
+
+.about .row .content p{
+	font-size: 1.5rem;
+	color: #666;
+	padding: 1rem 0;
+}
+
+.about .box-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.about .box-container .box{
+	padding: 3rem 10rem;
+	text-align: center;
+	border: .5rem solid var(--green);
+	margin: 2rem;
+}
+
+.about .box-container .box i{
+	color: var(--green);
+	font-size: 4rem;
+}
+
+.about .box-container .box h3{
+	color: #333;
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+.about .box-container .box p{
+	color: #333;
+	font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px){
 
 	html{
 		font-size: 55%;
 	}
+
 	header. fa-bars{
 	display: block;
 	}
@@ -135,11 +215,21 @@ header{
 		opacity: 0;
 		width: 100%;
 		border-top: 1rem solid #ccc;
+	}
+
+	.navigation ul{
 		flex-flow: column;
 		padding: 2rem 0;
 		background-color: #fff;
+	}
+
+	.navigation ul li{
+		width: 100%;
 		text-align: center;
 		margin: 1rem 0;
+	}
+
+	.navigation ul li a{
 		font-size: 3rem;
 		display: block;
 	}
@@ -153,3 +243,4 @@ header{
 		opacity: 1;
 	}
 }
+
