@@ -6,91 +6,73 @@
 	text-decoration: none;
 }
 
-body{
-		font-family: 'Roboto', sans-serif;
+html, body{
+	height: 100%;
+	width: 100%;	
+	font-family: 'Roboto', sans-serif;
+	color: #222;
 }
 
-.nav-bg{
-
-	background: rgb(20,54,1,0.6);
-}
-.navbar-nav .nav-link{
-	color: white!important;
+.navbar{
+	padding: .8rem;
 }
 
-.navbar-toggle{
-	outline: none!important;
+.navbar-nav li {
+	padding: 20px;	
 }
 
-/*home section*/
-#home{
+.nav-link {
+	font-size: 1.1rem !important; 
+}
+.carousel-inner img {
 	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
+	height: 100%;
 }
-#home:after{
-	content: '';
+.carousel-caption {
 	position: absolute;
-	left: 50%;
-	top: 0;
-	width: 130%;
-	height: 95%;
-	background: linear-gradient(to right,rgba(110,155,39,0.6),
-	 rgba(20,54,1,0.4)),url()center top no-repeat;
-	z-index: 0;
-	border-radius: 0 0 50% 50%;
-	transform: translateX(-50%) rotate(0deg);
+	top: 80%
+	transform: translateY(-50%);
 }
-#home:before{
-    content:'';
-    position: absolute;
-    left:50%;
-    top:0;
-    width:130%;
-    height:96%;
-    background:rgba(110,155,39,0.8);
-    opacity:0.3;
-    z-index:0;
-    border-radius:0 0 50% 50%;
-    transform: translateX(-50%)translateY(18px)rotate(2deg);
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
 }
-#home .carousel-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	text-align: center;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
+.carousel-caption p {
+	font-size: 200%;
+	font-weight: 500%;
+	text-shadow: 1px 1px 10px #000;
 }
 
-#home h2{
-	color: black;
-	margin-bottom: 30px;
-	font-size: 40px;
-	font-weight: bold;
-}
-#home p{
-	width: 80%;
-	animation-delay: 0.4s;
-	margin: 0 auto 30px;
-	color: white;
-	font-size: 20px;
-}
-/*end of home section*/
 /*start aboutus section*/
-.page-section h2.section-heading{
-	color: black;
-	font-weight: bold;
-	font-size: 40px;
-	margin-top: 0;
+.about{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.about hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
 	margin-bottom: 1rem;
 }
 
+.fa-chess{
+	color: #e54d26;
+}
+.fa-user-friends{
+	color: #563d7c;
+}
 
+.fa-seedling{
+	color: green;
+}
+
+.fa-chess, .fa-user-friends, .fa-seedling {
+	font-size: 64px;
+	margin: 1rem;
+
+}
 
 /*end aboutus section*/
 /*start our work section*/
@@ -151,17 +133,48 @@ body{
 }
 /*end our work*/
 /*start gallery*/
-*//*end gallery*/
+/*end gallery*/
+/* start social media*/
+.social a{
+	font-size: 4.5rem;
+	padding: 3rem;
+}
+.fa-facebook-f{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-facebook-f:hover,
+.fa-linkedin-in:hover,
+.fa-twitter:hover {
+	color: #d5d5d5;
+}
+
+
+/*end social media*/
 /*start footer*/
 footer{
-	background: #3f3f3f;
+	background-color: #3f3f3f;
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
 hr.light{
 	border-radius: 1px solid #d5d5d5;
 	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
 }
+footer a{
+	color: #d5d5d5;
+}
+hr.light-100{
+	border-radius: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
 
 
 
