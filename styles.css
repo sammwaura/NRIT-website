@@ -3,21 +3,11 @@ html, body{
 	width: 100%;	
 	font-family: 'Poppins', sans-serif;
 	color: black;
-	font-size: 100%;
-	font-weight: 200%
 }
 
 .navbar{
 	padding: .2rem;
 }
-
-.navbar-brand img{
-	font-weight: 100%;
-	font-size: 250%;
-	font-family: 'Roboto';
-	background-color: red;
-}
-
 
 .navbar-nav li {
 	padding: 20px;
@@ -27,20 +17,23 @@ html, body{
 .nav-link {
 	font-size: 1.1rem !important; 
 }
+
 .carousel-inner img {
 	align-items: center;
 	width: 100%;
 }
+
 .carousel-caption {
 	position: absolute;
 	transform: translateY(-50%);
 }
+
 .carousel-caption h1 {
-	
 	font-size: 350%;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 15px #000;
 }
+
 .carousel-caption p {
 	top: 50%;
 	font-size: 150%;
@@ -49,13 +42,22 @@ html, body{
 }
 
 /*start aboutus section*/
-.about{
+#about{
 	width: 75%;
 	margin: 0 auto;
 	padding-top: 2rem;
 }
+#about h3{
+	font-size: 200%;
+	font-weight: bold;
+	color: green;
+} 
+#about p{
+font-size: 100%;
+font-weight: lighter;
+}
 
-.about hr {
+#about hr {
 	border-top: 2px solid #b4b4b4;
 	width: 95%;
 	margin-top: .3rem;
