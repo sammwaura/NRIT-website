@@ -1,45 +1,50 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-transform: capitalize;
-	text-decoration: none;
-}
-
 html, body{
 	height: 100%;
 	width: 100%;	
-	font-family: 'Roboto', sans-serif;
-	color: #222;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-size: 100%;
+	font-weight: 200%
 }
 
 .navbar{
-	padding: .8rem;
+	padding: .2rem;
 }
 
+.navbar-brand img{
+	font-weight: 100%;
+	font-size: 250%;
+	font-family: 'Roboto';
+	background-color: red;
+}
+
+
 .navbar-nav li {
-	padding: 20px;	
+	padding: 20px;
+
 }
 
 .nav-link {
 	font-size: 1.1rem !important; 
 }
 .carousel-inner img {
-	width: 100%;
+	align-items: center;
+	opacity: 8px;
+	width: 97%;
 	height: 100%;
 }
 .carousel-caption {
 	position: absolute;
-	top: 80%
 	transform: translateY(-50%);
 }
 .carousel-caption h1 {
+	
 	font-size: 500%;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 15px #000;
 }
 .carousel-caption p {
-	font-size: 200%;
+	font-size: 300%;
 	font-weight: 500%;
 	text-shadow: 1px 1px 10px #000;
 }
@@ -50,6 +55,7 @@ html, body{
 	margin: 0 auto;
 	padding-top: 2rem;
 }
+
 .about hr {
 	border-top: 2px solid #b4b4b4;
 	width: 95%;
