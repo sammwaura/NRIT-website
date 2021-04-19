@@ -85,22 +85,13 @@ font-weight: lighter;
 /*start our work section*/
 .work-box{
 	padding: 15px;
-	background: #c6f8bc;
+	
 	margin-bottom: 30px;
 	position: relative;
 }
-.work-icon{
-	width: 90px;
-	height: 90px;
-	text-align: center;
-	line-height: 90px;
-}
-.work-icon i{
-	font-size: 50px;
-	color: white;
-	mix-blend-mode: difference;
-}
+
 .work-box h2 h3{
+	font-family: sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	color: black;
@@ -113,6 +104,24 @@ font-weight: lighter;
 	color: white;
 	mix-blend-mode: difference;
 }
+.fa-tree{
+	color: green;
+}
+
+.fa-briefcase{
+	color: brown;
+}
+
+.fa-anchor{
+	color: blue;
+}
+
+.fa-tree, .fa-briefcase, .fa-anchor{
+	font-size: 64px;
+	margin: 1rem;
+
+}
+
 .overlay{
 	margin:20px auto;
 	border: none;

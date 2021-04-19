@@ -23,15 +23,46 @@
     <!-- navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-          <a class="navbar-brand " href="#"><img src="./images/logo2.jpg"></a>
+          <a class="navbar-brand" href="#"><img src="./images/logo2.jpg">NATURAL RESOURCE & INFORMATION TECHNOLOGY</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#work">OurWork</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     About Us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Mission</a></li>
+                    <li><a class="dropdown-item" href="#">Vission</a></li>
+                    <li><a class="dropdown-item" href="#">Strategy</a></li>
+                    <li><a class="dropdown-item" href="#">Corevalues</a></li>
+                    <li><a class="dropdown-item" href="#">Services</a></li>
+                </ul>
+              </li>
+                  <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#work" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     NRIT Consultancy's
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Environmental Impact Assessment</a></li>
+                    <li><a class="dropdown-item" href="#">Baseline and end of project</a></li>
+                    <li><a class="dropdown-item" href="#">PFMP</a></li>
+                    <li><a class="dropdown-item" href="#">Strategic Plans</a></li>
+                    <li><a class="dropdown-item" href="#">Resource, mapping assessment and valuation</a></li>
+                    <li><a class="dropdown-item" href="#">Landscape planning</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#gallery" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Gallery
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">NRIT Functions</a></li>
+                    <li><a class="dropdown-item" href="#">Consultancy Work</a></li>
+                </ul>
+              </li>
                     <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
                   <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
               </ul>
@@ -39,7 +70,6 @@
       </div>
         </nav>
     <!-- end of nav -->
-
     <!-- image slider -->
     <div id="slides" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -51,31 +81,31 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./images/nrit.jpg">
-            <div class="carousel-caption">
+           <!--  <div class="carousel-caption">
               <h1 class="display-2 animate__animated animate__backInDown">
                 <span>Natural Resource & Information Technology</span>
               </h1>
               <p class="animate__animated animate__fadeInUp">
              We focus on provisioning technical services to support improved management of Natural Resources using the best practices
               </p>
-          </div>
+          </div> -->
         </div>
         <!-- image 2 -->
         <div class="carousel-item">
-             <img src="./images/mission (1).jpg">
-             <div class="carousel-caption">
+             <img src="./images/mission.jpg">
+             <!-- <div class="carousel-caption">
             <h1 class=" display-2 animate__animated animate__backInDown">
               Mission
             </h1>
             <p class="animate__animated animate__fadeInUp">
               To offer customers quality and timely services that enhance their capacity to improve management of natural resources.
             </p>
-          </div>
+          </div> -->
         </div>
         <!-- image 3 -->
         <div class="carousel-item">
-            <img src="./images/vission (1).jpg">
-            <div class="carousel-caption">
+            <img src="./images/vission1.jpg">
+            <!-- <div class="carousel-caption">
             <h1 class="display-2 animate__animated animate__backInDown">
               Vission
             </h1>
@@ -83,7 +113,7 @@
               To be a lead consultancy firm in natural resource
             information and technology development
             </p>
-          </div>
+          </div> -->
        </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
@@ -95,8 +125,29 @@
     <span class="visually-hidden">Next</span>
   </button>
   </div>
-  
     <!-- end of homesection -->
+    <!-- jumbotron -->
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            NRIT Ltd is a Natural Resource and Information
+            Technology consultancy firm with headquarters in
+            Nairobi, Kenya. It is registered under the
+            Companies Act (Cap. 486) as a limited company.
+            It focuses on provisioning technical services to
+            support improved management of Natural
+            Resources using best practices. It has a pool of
+            experts from various fields of natural resource
+            management some on full time while others
+            are on short notice call.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    <!-- end of jumbotron -->
+
      <!-- start about section -->
    <div class="container-fluid padding" id="about">
     <div class="row about text-center">
@@ -149,7 +200,7 @@
             <div class="col-md-4">
               <div class="work-box">
                 <div class="work-icon">
-                  <i class="fas fa-sitemap"></i>
+                 <i class="fas fa-tree"></i>
                 </div>
                 <h2>Short-term consultancy Department</h2>
                 <p>This department has employees on long and short term contracts based on workload. All the subject area lead experts have a minimum of a Masters Degree and more than five years experience in their area of expertise.
@@ -160,7 +211,7 @@
            <div class="col-md-4">
               <div class="work-box">
                 <div class="work-icon">
-                  <i class="fas fa-sitemap"></i>
+                    <i class="fas fa-briefcase"></i>
                 </div>
                 <h2>Long-term Contracts/field operation department</h2>
               <p>This department supports contracts that are more than 9months implementation period since it requires expert's availability for a long period of time and sometime the work station is located in the client's offices. This department also handles logistics of all types of field work. 
@@ -170,7 +221,7 @@
             <div class="col-md-4">
               <div class="work-box">
                 <div class="work-icon">
-                  <i class="fas fa-sitemap"></i>
+                  <i class="fas fa-anchor"></i>
                 </div>
                 <h2>Planning & Training</h2>
                 <p>
