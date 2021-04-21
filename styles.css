@@ -1,17 +1,21 @@
 html, body{
 	height: 100%;
 	width: 100%;	
-	font-family: 'Poppins', sans-serif;
-	color: black;
+	font-family: 'Merriweather', serif;
 }
 
 .navbar{
 	padding: .2rem;
 }
-
-.navbar-nav li {
+.navbar-nav ul li a {
 	padding: 20px;
+	font-weight: bold;
+	display: block;
+	transition-duration: 0.5s;
+}
 
+.navbar-nav li:hover{
+	cursor: pointer;
 }
 
 .nav-link {
@@ -40,6 +44,11 @@ html, body{
 	font-weight: 500%;
 	text-shadow: 1px 1px 10px #000;
 }
+/*jumbotron start*/
+.jumbotron .lead{
+	font-family: ;
+}
+/*end of jumbotron*/
 
 /*start aboutus section*/
 #about{
@@ -80,6 +89,157 @@ font-weight: lighter;
 	margin: 1rem;
 
 }
+/*mission section*/
+.section-mission {
+	background: url(./images/ourmission2.png) no-repeat left;
+	background-size: 55%;
+	padding: 100px 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+.inner-container{
+	background-color: grey;
+	width: 55%;
+	float: right;
+	background-color: white;
+	padding: 150px;
+}
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+.text{
+	font-size: 18px;
+	color: grey;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+/*end of mission*/
+/*start vission*/
+.section-vission {
+	background: url(./images/ourvission.jpg) no-repeat left;
+	background-size: 55%;
+	padding: 100px 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+.inner-container{
+	width: 55%;
+	float: right;
+	background-color: white;
+	padding: 150px;
+
+}
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+.text{
+	font-size: 13px;
+	color: grey;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+/*end of vission*/
+/*start corevalues*/
+.section-corevalues {
+	background: url(./images/ourcorevalues.jpg) no-repeat left;
+	background-size: 55%;
+	padding: 100px 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+.inner-container{
+	width: 55%;
+	float: right;
+	background-color: white;
+	padding: 150px;
+
+}
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+.text{
+	font-size: 13px;
+	color: grey;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+/*end of corevalues*/
+/*start of strategy*/
+.section-strategy {
+	background: url(./images/ourstrategy.webp) no-repeat left;
+	background-size: 55%;
+	padding: 100px 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+.inner-container{
+	width: 55%;
+	float: right;
+	background-color: white;
+	padding: 150px;
+
+}
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+.text{
+	font-size: 13px;
+	color: grey;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+/*end of strategy*/
+/*start of services*/
+.section-services {
+	background: url(./images/ourservices2.jpg) no-repeat left;
+	background-size: 55%;
+	padding: 100px 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+.inner-container{
+	width: 55%;
+	float: right;
+	background-color: white;
+	padding: 150px;
+
+}
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+.text{
+	font-size: 13px;
+	color: grey;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+/*end of services*/
 
 /*end aboutus section*/
 /*start our work section*/
@@ -149,6 +309,13 @@ font-weight: lighter;
 }
 /*end our work*/
 /*start gallery*/
+/* ul{
+	padding: 20px;
+	width: 1280px;
+	margin: 40px auto;
+	display: flex;
+	margin-bottom: 10px;
+}*/
 /*end gallery*/
 /* start social media*/
 .social a{
